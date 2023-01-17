@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Plugins/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./Plugins/animate/animate.min.css">
+    <title>Document</title>
+</head>
+<body class="bg-purple">
+    
+<div class="card col-md-3  p-5 offset-4 my-2">
+   <div class="para">
+    <input class="btn card1  rounded form-control" type="text" id="output" readonly placeholder="Password Here">
+    <i class="fa fa-trash" id="trash" ></i>
+   </div>
+  
+
+    <div class="d-flex div mt-3 justify-content-between">
+        <p>Password Length</p>
+        <input class="" type="number" id="passlength" name="">
+    </div>
+    <div class="d-flex div  justify-content-between">
+        <p>Upper Case</p>
+        <input class="input" id="uppercase" type="checkbox" name="">
+    </div>
+    <div class="d-flex div  justify-content-between">
+        <p>Lower Case</p>
+        <input class="input" id="lowercase" type="checkbox" name="">
+    </div>
+    <div class="d-flex div  justify-content-between">
+        <p>Number</p>
+        <input class="input" id="numbers" type="checkbox" name="">
+    </div>
+    <div class="d-flex div  justify-content-between">
+        <p>Symbol</p>
+        <input class="input" id="symbols" type="checkbox" name="">
+    </div>
+    <button type="button" onclick="PassGen()" rounded class="btn btn-purple form-control heartbeat">GENERATE</button>
+</div>
+
+    
+
+
+    <script src="./App.js"></script>
+</body>
+</html>

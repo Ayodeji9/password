@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card{
+    background-color: rgb(119, 0, 119);
+}
+input::placeholder{
+    color: white !important;
+    text-align: left;
+    font-size: 20px;
+}
+.div p{
+    color: white;
+    font-size: 20px;
+}
+.div input{
+    height: 30px;
+}
+.input{
+    height: 30px;
+    width: 120px !important;
+}
+.card1{
+  background: white !important;
+  width: 80%;
+}
+.card1::placeholder{
+    color: black !important;
+}
+.fa-trash{
+    width: 10%;
+    color: white !important;
+    background-color: black;
+    margin-left: 10px;
+    border-radius: 5px;
+    
+}
+.para{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
